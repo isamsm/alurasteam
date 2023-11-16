@@ -7,23 +7,6 @@ var gameList = [
 
 var gameTitles = ['The Last of Us', 'Life is Strange', 'Sally Face', 'Little Missfoturne'];
 
-function addGame() {
-    newGame = document.getElementById('game').value
-    newGameTitle = document.getElementById('title').value
-
-    if (gameTitles.includes(newGameTitle)) {
-        alert('Esse jogo já existe no nosso banco de dados, informe outro')
-    }
-    else if (!newGame.endsWith('jpg' || 'png') || newGameTitle === null) {
-        alert('Título ou link inválido!')
-    } 
-    else {
-        gameList.push(newGame);
-        gameTitles.push(newGameTitle);
-        renderGames()
-    }
-}
-
 function renderGames() {
     var gameListContainer = document.getElementById('gameListContainer');
     gameListContainer.innerHTML = '';
@@ -42,4 +25,23 @@ function renderGames() {
         gameContainer.appendChild(gameP);
         gameListContainer.appendChild(gameContainer);
     });
+}
+
+renderGames()
+
+function addGame() {
+    newGame = document.getElementById('game').value
+    newGameTitle = document.getElementById('title').value
+
+    if (gameTitles.includes(newGameTitle)) {
+        alert('Esse jogo já existe no nosso banco de dados, informe outro')
+    }
+    else if (!newGame.endsWith('jpg' || 'png') || newGameTitle === null) {
+        alert('Título ou link inválido!')
+    } 
+    else {
+        gameList.push(newGame);
+        gameTitles.push(newGameTitle);
+        renderGames()
+    }
 }
