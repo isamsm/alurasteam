@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
-    background-image: url("https://wallpapercrafter.com/desktop/115757-Battlefield-simple-background-video-games-PC-gaming.png");
+    background-image: url('https://wallpapercave.com/wp/1ljDpnS.jpg');
     background-color: #000000;
     background-size: cover;
     background-position: center top;
@@ -30,8 +30,8 @@ body {
 .alura-logo {
     width: 40px;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 30px;
+    right: 40px;
 }
 
 p {
@@ -52,13 +52,14 @@ p {
 }
 
 button {
-    background-color: orange;
+    background-color: #da1e26;
     color: white;
     border: transparent;
     font-size: 20px;
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
+    padding: 15px;
 }
 
 input {
