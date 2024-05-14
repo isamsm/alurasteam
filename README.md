@@ -2,7 +2,7 @@
 
 ## Sobre
 
-### Projeto feito durante a Imersao Dev da Alura, se tratando de um catálogo de jogos aonde você pode adicionar algum jogo de sua prefêrencia e visualizar os já existentes na lista. A ideia do catálogo de jogos se trata de uma implementação minha, já que o original era um de filmes, assim como a adição de um novo jogo, as verificações e o uso de foreach, na aula foi utilizado o for, também foram feitas por mim. 
+### Projeto feito durante a Imersao Dev da Alura utilizando HTML, CSS e Javascript, se tratando de um catálogo de jogos aonde você pode adicionar algum jogo de sua prefêrencia e visualizar os já existentes na lista. A ideia do catálogo de jogos se trata de uma implementação minha, já que o original era um de filmes, assim como a adição de um novo jogo, as verificações e o uso de foreach, na aula foi utilizado o for, também foram feitas por mim. 
 
 ## Como usar
 
